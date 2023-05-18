@@ -1,15 +1,14 @@
-"use client"
 
+"use client"
 // import './globals.css'
-import { useCallback, useEffect, useId, useRef, useState } from "react";
+// import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { Inter } from 'next/font/google'
 import {ChakraProvider} from '@chakra-ui/react'
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 
 const inter = Inter({ subsets: ['latin'] })
-
-export const metadata = {
+ const metadata = {
   title: 'Panaverse',
   description: 'Revolutionalizing Pakistan',
 }
